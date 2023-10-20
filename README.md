@@ -26,7 +26,7 @@ conda install pytorch torchvision torchaudio -c pytorch
 
 ## Overview of the Problem
 In this project, we tackle the problem of modeling the dynamics of a one-dimensional (1D) damped harmonic oscillator. The mathematical formulation of this system is given by the following second-order ordinary differential equation (ODE):
-$$ m \dfrac{d^2 x}{d t^2} + \mu \dfrac{d x}{d t} + kx = 0~, $$
+$$m \dfrac{d^2 x}{d t^2} + \mu \dfrac{d x}{d t} + kx = 0~,$$
 Initial Conditions
 The system starts from an initial position $x(0)=1$ and initial velocity $\frac{d x}{d t}=0$.
 Under-damped State

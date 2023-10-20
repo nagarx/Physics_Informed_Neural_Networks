@@ -26,6 +26,18 @@ In this project, we aim to solve a complex physics problem through machine learn
 
 By leveraging both approaches, we can create a model that not only fits the available data but also respects the physical laws governing the system.
 
+## Visualizations of the Learning Process
+
+The following GIFs demonstrate how the models learn over time, providing an intuitive understanding of the learning dynamics.
+
+### Neural Network Learning Process
+
+![Neural Network Learning Process](nn.gif)
+
+### Physics-Informed Neural Network Learning Process
+
+![Physics-Informed Neural Network Learning Process](pinn.gif)
+
 ## Environment Setup
 To execute the code and train the Physics-Informed Neural Network, we utilize PyTorch, a robust and widely-used machine learning library. Below are the steps to set up the working environment:
 ```commandline

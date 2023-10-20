@@ -32,11 +32,11 @@ The following GIFs demonstrate how the models learn over time, providing an intu
 
 ### Neural Network Learning Process
 
-![Neural Network Learning Process](nn.gif)
+![Neural Network Learning Process](gifs/NN.gif)
 
 ### Physics-Informed Neural Network Learning Process
 
-![Physics-Informed Neural Network Learning Process](pinn.gif)
+![Physics-Informed Neural Network Learning Process](gifs/PINN.gif)
 
 ## Environment Setup
 To execute the code and train the Physics-Informed Neural Network, we utilize PyTorch, a robust and widely-used machine learning library. Below are the steps to set up the working environment:

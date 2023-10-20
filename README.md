@@ -31,14 +31,12 @@ Initial Conditions
 The system starts from an initial position $x(0)=1$ and initial velocity $\frac{d x}{d t}=0$.
 Under-damped State
 We specifically focus on solving the problem in its under-damped state, defined by the condition:
-$$ \delta<\omega_0 $$
+$$\delta<\omega_0$$
 where $\delta=\frac{\mu}{2 m}$ is the damping coefficient, and $\omega_0=\sqrt{\frac{k}{m}}$ is the natural frequency of the system.
 
 Analytical Solution
 The exact analytical solution for the system in the under-damped state is given by:
-$$
-x(t)=e^{-\delta t}(2 A \cos (\phi+\omega t))
-$$
+$$x(t)=e^{-\delta t}(2 A \cos (\phi+\omega t))$$
 where $\omega=\sqrt{\omega_0^2-\delta^2}$ is the damped angular frequency.
 
 By solving this problem, we aim to validate the effectiveness of Physics-Informed Neural Networks (PINNs) in capturing both the data-driven and physics-based characteristics of complex dynamical systems.
